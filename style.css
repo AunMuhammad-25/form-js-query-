@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+body {
+
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 118, 9, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.form-main {
+    border: 2px solid white;
+    width: 100%;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 100px;
+    border-radius: 10px;
+}
+#f-name{
+    font-size: 20px;
+}
+#fname , #lname , #email{
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px ;
+}
+#submit{
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    font-size: 18px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,49,1) 35%, rgba(28,233,159,1) 100%);
+    cursor: pointer;
+}
+#span1, #span2, #span3{
+    color: red;
+}
+.thanksyou{
+    background: linear-gradient(90deg, rgb(42, 6, 150) 53%, rgb(112, 10, 126) 100%);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20%;
+    color: white;
+}
